@@ -1,14 +1,26 @@
 /* styles.css */
+background-color: #E2DBBE;
+
+
 h1{
   font-family: "Libre Caslon Condensed", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
   text-align: center;
+  color: rgb(64, 99, 119);
+  text-color: #406377;
 }
 
 p{
     text-align: center;
+}
+
+.spacer{
+    height: 10px;
+    text-align: center;
+    color: #21302A;
+    border: 2px solid #21302A;
 }
 
 h2{
@@ -17,7 +29,7 @@ h2{
   font-weight: <weight>;
   font-style: normal;
   text-decoration: underline;
-  color: #21302A;
+  color: #406377;
 }
 
 body{
@@ -35,5 +47,12 @@ body{
   border: 2px solid #21302A;
   background-color: #92B5A7;
   padding: 10px 20px;
+}
+.profile-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  height: auto;
+  align-items: center;
 }
 
