@@ -1,2 +1,39 @@
 /* styles.css */
+h1{
+  font-family: "Libre Caslon Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+h2{
+  font-family: "Libre Caslon Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  text-decoration: underline;
+  color: #21302A;
+}
+
+body{
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.portfolio-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  border: 2px solid #21302A;
+  background-color: #92B5A7;
+  padding: 10px 20px;
+}
 
